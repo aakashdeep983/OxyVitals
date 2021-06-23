@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1"
+        tools:context="com.aakash.healthalert.Login">
+
+
+
+
+        <EditText
+            android:id="@+id/edtu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtu"
+            android:background="@drawable/textinputborder"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/edtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtn"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textinputborder"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/edtpc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtp"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textinputborder"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtpc"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:background="@drawable/textinputborder"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edte"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Age"
+            android:inputType="number"
+            android:background="@drawable/textinputborder"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edta"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Height(in ft.)"
+            android:inputType="number"
+            android:background="@drawable/textinputborder"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edth"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Weight(in kg.)"
+            android:inputType="number"
+            android:background="@drawable/textinputborder"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+
+        <Spinner
+            android:id="@+id/SGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0.15" />
+
+        <ImageButton
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@mipmap/register" />
+
+
+    </LinearLayout>
+</ScrollView>

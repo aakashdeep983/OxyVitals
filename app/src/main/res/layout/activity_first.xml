@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:weightSum="1"
+    tools:context="com.aakash.healthalert.First">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/logo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20" />
+
+
+
+    <EditText
+        android:id="@+id/edtu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:background="@drawable/textinputborder"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="17dp"
+        android:textStyle="italic"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" />
+
+
+    <EditText
+        android:id="@+id/edtp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtu1"
+        android:background="@drawable/textinputborder"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="17dp"
+        android:textStyle="italic"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/newacc"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Create new Account"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <ImageButton
+        android:id="@+id/prime"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@android:color/transparent"
+        app:srcCompat="@mipmap/login" />
+
+
+</LinearLayout>
